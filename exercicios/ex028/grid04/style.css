@@ -7,6 +7,12 @@ div.container {
     gap: 5px;
 }
 
+div.caixa1, .caixa2, .caixa3 {
+    color: white;
+    text-align: center;
+    
+}
+
 div.caixa1 {
     background-color: red;
     grid-row-start: 1;
