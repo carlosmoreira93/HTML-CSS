@@ -1,16 +1,25 @@
 @charset "UTF-8";
 
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
 .container {
-    text-align: center;
+    width: 100vw;
+    height: 100vh;
     display: grid;
-    grid-template-rows: 80px 50px 200px 50px;
-    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-rows: 80px 50px 1fr 50px;
+    grid-template-columns: 1fr 2fr 150px;
     gap: 5px;
 }
 
 .caixa {
     background-color: lightgrey;
     border: 1px solid black;
+    padding: 10px;
+    text-align: center;
 }
 
 #topo {
